@@ -1,0 +1,83 @@
+{
+  "Duration": {
+    "TimeSpentCollectivizing": "420.06:06:06",
+    "days": 420,
+    "hours": 6.0
+  },
+  "ProductionAreas": [
+    {
+      "Republic": "Ukraine",
+      "Oblast": "Kyiv Oblast",
+      "City": "Kyiv"
+    },
+    {
+      "Republic": "Russia",
+      "Oblast": "Moscow Oblast",
+      "City": null
+    },
+    {
+      "Republic": "Khazakhstan",
+      "Oblast": null,
+      "City": null
+    }
+  ],
+  "CollectivizedResources": [
+    {
+      "ResourceName": "Potato",
+      "CollectivizationStatus": "Succeeded",
+      "Count": 80000000,
+      "ErrorInformation": null,
+      "LogMessage": "Successfully collectivized 80000000 units of resource 'Potato'."
+    },
+    {
+      "ResourceName": "Hammer",
+      "CollectivizationStatus": "Succeeded",
+      "Count": 1,
+      "ErrorInformation": null,
+      "LogMessage": "Successfully collectivized 1 units of resource 'Hammer'."
+    },
+    {
+      "ResourceName": "Sickle",
+      "CollectivizationStatus": "Succeeded",
+      "Count": 1,
+      "ErrorInformation": null,
+      "LogMessage": "Successfully collectivized 1 units of resource 'Sickle'."
+    },
+    {
+      "ResourceName": "Wheat",
+      "CollectivizationStatus": "Failed",
+      "Count": null,
+      "ErrorInformation": {
+        "ErrorType": "ForeignInfluence",
+        "ErrorCode": 404,
+        "ErrorMessage": "the bourgoisie have sabotaged our five-year plan"
+      },
+      "LogMessage": "Collectivization of resource 'Wheat' has failed with Error Code [404] : the bourgoisie have sabotaged our five-year plan"
+    },
+    {
+      "ResourceName": "Truth",
+      "CollectivizationStatus": "Skipped",
+      "Count": 0,
+      "ErrorInformation": null,
+      "LogMessage": "Resource 'Truth' is neither produced nor consumed by population of specified areas."
+    },
+    {
+      "ResourceName": "Vodka",
+      "CollectivizationStatus": "Succeeded",
+      "Count": 190193,
+      "ErrorInformation": null,
+      "LogMessage": "Successfully collectivized 190193 units of resource 'Vodka'."
+    },
+    {
+      "ResourceName": "Freedom",
+      "CollectivizationStatus": "Failed",
+      "Count": null,
+      "ErrorInformation": {
+        "ErrorType": "PolitburoException",
+        "ErrorCode": 666,
+        "ErrorMessage": "regime does not accept such notions"
+      },
+      "LogMessage": "Collectivization of resource 'Freedom' has failed with Error Code [666] : regime does not accept such notions"
+    }
+  ]
+}

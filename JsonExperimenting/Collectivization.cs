@@ -50,6 +50,7 @@ namespace JsonExperimenting
 
         public void SerializeMe()
         {
+            //change this path to write to the output folder in the solution
             File.WriteAllText($"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\\Code\\jsonExperiments\\collectivization.json", JsonConvert.SerializeObject(this, Formatting.Indented));
         }
 
